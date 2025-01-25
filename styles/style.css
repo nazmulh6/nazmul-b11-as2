@@ -18,6 +18,10 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+.fa-bars{
+    display: none;
+    font-size: 2rem;
+}
 /* header styles */
 .header-container{
     max-width: 1440px;
@@ -351,6 +355,7 @@ main{
 }
 .mid-footer > ul > li > a{
     color: white;
+    /* padding: 15px; */
 
 }
 footer{
@@ -375,6 +380,7 @@ footer{
 .info > .nav-link{
     position: absolute;
     margin-left: -2%;
+    
 }
 .mid-foot-title{
     /* margin-bottom: 0; */
@@ -387,3 +393,28 @@ footer{
 
 
 /* responsive for mobile device */
+@media screen and (max-width: 576px) {
+    .navbar{
+        border-bottom: 2px solid orange;
+    }
+    .nav-title,.nav-menu, .nav-btn1{
+        display: none;
+    }
+    .nav-img-bar{
+        justify-content:;
+    }
+    .nav-image{
+        justify-content:left;
+    }
+    .fa-bars{
+        justify-content: flex-end;
+        
+    }
+    .banner{
+        justify-items: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    
+}
