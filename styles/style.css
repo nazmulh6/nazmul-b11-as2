@@ -15,13 +15,17 @@
     color: #666666;
 }
 /* header styles */
-
+.header-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 /* nav related styles */
 .navbar{
+    /* max-width: 1440px; */
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    margin: 0px auto;
+    /* margin: 0 auto; */
 }
 .nav-title{
     font-size: 2rem;
@@ -66,11 +70,60 @@ ul > li{
 ul > li > a{
     text-decoration: none;
 }
-/* main styles */
+/* banner related styles */
+.banner{
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    /* margin: 0 auto; */
 
+   
+}
+.empower{
+    color:  #FEA301;
+}
+.vision{
+    color:#01ACFD;
+}
+.banner-title{
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+.banner-img{
+    /* width: 100%; */
+}
+.banner-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+/* curriculum related styles */
+.curriculum{
+    background-image:url(../assets/bg.png);
+
+}
+.curriculum-title{
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+/* main styles */
+main{
+    max-width: 1440px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* footer styles */
 
 
-
+/* responsive for mobile device */
