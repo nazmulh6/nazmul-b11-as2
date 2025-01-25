@@ -209,19 +209,125 @@ ul > li > a{
 }
 /* story related styles */
 .stories{
-    background-image: linear-gradient(white,#FFE5B7);
+    
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.full-story{
+    background-image: linear-gradient( white, #FEA301);
     background-image:url(../assets/bg.png);
+
 }
 .story-part{
     max-width: 1440px;
-    margin-left: 80px;
-    margin-right: 80px;
+  
 }
 .stories-title{
     font-size: 3rem;
     font-weight: bold;
     justify-content: center;
     text-align: center;
+}
+.box-container{
+    gap: 30px;
+}
+.right-column{
+    gap: 20px;
+}
+.story-btn-1{
+    background-color:#3CD8E8 ;
+    border:none ;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius:25px ;
+    color: white;
+    padding: 10px 30px;
+    position:absolute;
+    margin-top: -5%;
+
+}
+.story-btn-2{
+    background-color:#95B226 ;
+    border:none ;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius:25px ;
+    color: white;
+    padding: 10px 30px;
+    position:absolute;
+    margin-top: -2%;
+    margin-right: -2%;
+}
+.story-btn-3{
+    background-color:blueviolet ;
+    border:none ;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius:25px ;
+    color: white;
+    padding: 10px 30px;
+    position:absolute;
+    margin-top: -2%;
+    margin-right: -100px;
+}
+.story-btn-4{
+    background-color:orange ;
+    border:none ;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius:25px ;
+    color: white;
+    padding: 10px 30px;
+    position:absolute;
+    margin-top: -2%;
+    margin-right: -100px;
+}
+.story-btn-5{
+    background-color:skyblue ;
+    border:none ;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius:25px ;
+    color: white;
+    padding: 10px 30px;
+    position:absolute;
+    margin-top: -2%;
+    /* margin-right: -100px; */
+}
+
+.right-box{
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: rgb(245, 245, 235);
+
+}
+
+.right-box img{
+    border-radius: 15px;
+}
+.left-column{
+    /* max-width: 540px; */
+    background-color: rgb(245, 245, 235);
+    border: 2px solid gray;
+    border-radius: 15px;
+    position: relative;
+}
+.left-details{
+    padding-left: 30px;
+} 
+.column-title{
+    font-size: 1.30rem;
+    font-weight: bold;
+    /* margin-top: 50px; */
+    padding-left: 30px;
+}
+.left-column img{
+    width: 100%;
+    border-radius: 15px;
+}
+.right-column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
