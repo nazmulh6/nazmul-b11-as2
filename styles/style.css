@@ -14,11 +14,15 @@
 .text-gray{
     color: #666666;
 }
-/* header styles */
-.header-container{
+.navbar, .banner, .curriculum{
     max-width: 1440px;
     margin: 0 auto;
 }
+/* header styles */
+/* .header-container{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
 /* nav related styles */
 .navbar{
     /* max-width: 1440px; */
@@ -75,7 +79,8 @@ ul > li > a{
     justify-content: center;
     align-items: center;
     max-width: 1440px;
-    /* margin: 0 auto; */
+    margin-left: 80px;
+    margin-right: 80px;
 
    
 }
@@ -112,14 +117,111 @@ ul > li > a{
     justify-content: center;
     text-align: center;
 }
+.card-container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.card-title{
+    font-size: 1.30rem;
+    font-weight: bold;
+}
+.card-details{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.card{
+    box-shadow: 0 0 25px 0.94px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+   
+}
+.grad-1{
+    background-image: linear-gradient( #DEF5FF,white);
+}
+.grad-2{
+    background-image: linear-gradient(#FFF4DC,white);
+}
+.grad-3{
+    background-image: linear-gradient(#F2E8FF,white);
+}
+.card-btn1{
+    background-color: white;
+    color: #01ACFD;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.card-btn2{
+    background-color: white;
+    color: orange;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.card-btn3{
+    background-color: white;
+    color: #8700FF;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.array{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.arr-1{
+    background-color: #FEA301;
+    border: none;
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+    padding: 8px;
+}
+.arr-2{
+    background-color: #FEA301;
+    border: none;
+    height: 25px;
+    width: 25px;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+}
 
 /* main styles */
-main{
+.curriculum-1{
     max-width: 1440px;
     margin-left: 80px;
     margin-right: 80px;
     justify-content: center;
     align-items: center;
+}
+/* story related styles */
+.stories{
+    background-image: linear-gradient(white,#FFE5B7);
+    background-image:url(../assets/bg.png);
+}
+.story-part{
+    max-width: 1440px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.stories-title{
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
 }
 
 
